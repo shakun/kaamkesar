@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* CSS Document */
+
+#top {
+	height: 30px;
+	background-color: #000;
+}
+#main {
+	height: 730px;
+	width: 1000px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-repeat: repeat;
+	background-image: url(../images/dot.png);
+}
+#main_content {
+	height: 380px;
+	padding: 20px;
+	margin: 0px;
+	float: left;
+	width: 600px;
+}
+#adv {
+	height: 320px;
+}
+#click {
+	height: 20px;
+	text-align: center;
+}
+#headin {
+	height: 10px;
+	background-color: #000;
+}
+#footer {
+	height: 30px;
+	background-color: #000;
+}
+#topcontent {
+	height: 40px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#cart {
+	height: 30px;
+	width: 190px;
+	float: left;
+	background-image: url(../images/cart1.png);
+	background-repeat: no-repeat;
+	text-align: right;
+	padding-right: 10px;
+}
+.white {
+	color: #CCC;
+}
+#currency {
+	height: 30px;
+	width: 200px;
+	float: left;
+}
+#language {
+	float: left;
+	height: 30px;
+	width: 200px;
+}
+#header {
+	height: 100px;
+	background-repeat: repeat-x;
+	background-color: #2B0055;
+	background-image: url(../images/header.png);
+}
+#banner {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+	height: 300px;
+}
+#menu {
+	height: 40px;
+	width: 1000px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#menubg {
+	height: 40px;
+	background-image: url(../images/bar.png);
+	width: 1000px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(../images/bg.jpg);
+}
+#headercontent {
+	height: 100px;
+	width: 1000px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.footer {
+	font-family: "Courier New", Courier, monospace;
+	color: #FFF;
+	font-size: small;
+	text-align: center;
+}
+#logo {
+	padding-top: 20px;
+	width: 300px;
+	float: left;
+}
+#facebook {
+	width: 300px;
+	text-align: right;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#user {
+	text-align: right;
+	padding-top: 25px;
+}
+#header_rt {
+	float: right;
+	width: 300px;
+	height: 100px;
+}
+p {
+	color: #CCC;
+}
+#product {
+	height: 430px;
+	width: 600px;
+}
