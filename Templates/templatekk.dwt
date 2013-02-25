@@ -3,9 +3,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Kaam Kesar</title>
-<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
-<script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
-<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<script src="../SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<script src="../Scripts/swfobject_modified.js" type="text/javascript"></script>
+<link href="../SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
 <!--
 a:link {
@@ -25,7 +25,7 @@ a:active {
 }
 -->
 </style>
-<link href="css/main.css" rel="stylesheet" type="text/css" />
+<link href="../css/main.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -38,16 +38,16 @@ a:active {
 </div>
 <div id="header">
   <div id="headercontent">
-    <div id="logo"><img src="images/logokk.png" width="271" height="60" />s</div>
+    <div id="logo"><img src="../images/logokk.png" width="271" height="60" />s</div>
     <div id="header_rt">
-      <div id="facebook"><img src="images/fb_tw.png" alt="facebook twitter google" width="120" height="32" border="0" usemap="#Map" />
+      <div id="facebook"><img src="../images/fb_tw.png" alt="facebook twitter google" width="120" height="32" border="0" usemap="#Map" />
         <map name="Map" id="Map">
           <area shape="rect" coords="3,3,34,29" href="https://www.facebook.com/KaamKesar?ref=ts&amp;fref=ts" target="_blank" alt="facebook" />
-          <area shape="rect" coords="44,-2,75,30" href="https://www.twitter.com/KaamKesar" target="_blank" alt="twitter" />
-          <area shape="rect" coords="83,1,117,32" href="https://www.google.com/" alt="google" />
+          <area shape="rect" coords="44,-2,75,30" href="https://twitter.com/KaamKesar" target="_blank" alt="twitter" />
+          <area shape="rect" coords="83,1,117,32" href="https://plus.google.com/u/0/116059005796817803433/posts" target="_blank" alt="google" />
         </map>
       </div>
-      <div id="user"><img src="images/user.png" alt="user account" width="80" height="24" border="0" usemap="#Map2" />
+      <div id="user"><img src="../images/user.png" alt="user account" width="80" height="24" border="0" usemap="#Map2" />
         <map name="Map2" id="Map2">
           <area shape="rect" coords="-8,-14,82,23" href="#" />
         </map>
@@ -58,33 +58,33 @@ a:active {
 <div id="menubg">
     <div id="menu">
       <ul id="MenuBar1" class="MenuBarHorizontal">
-        <li><a href="home.html">Home</a>        </li>
-        <li><a href="ingredients.html">Ingredients</a></li>
-        <li><a href="moa.html">MOA</a>        </li>
-        <li><a href="literature.html">Literature</a></li>
-        <li><a href="expert.html">Experts Say</a></li>
-        <li><a href="forum.html">Forum</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="../home.html">Home</a>        </li>
+        <li><a href="../ingredients.html">Ingredients</a></li>
+        <li><a href="../moa.html">MOA</a>        </li>
+        <li><a href="../literature.html">Literature</a></li>
+        <li><a href="../expert.html">Experts Say</a></li>
+        <li><a href="../forum.html">Forum</a></li>
+        <li><a href="../contact.html">Contact</a></li>
       </ul>
     </div>
       </div>
 <div id="main">
   <div id="banner">
     <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="1000" height="300" id="FlashID" title="Kaam Kesar To Boost Your Sex Life">
-      <param name="movie" value="images/kk_banner.swf" />
+      <param name="movie" value="../images/kk_banner.swf" />
       <param name="quality" value="high" />
       <param name="wmode" value="transparent" />
       <param name="swfversion" value="9.0.45.0" />
       <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
-      <param name="expressinstall" value="Scripts/expressInstall.swf" />
+      <param name="expressinstall" value="../Scripts/expressInstall.swf" />
       <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
       <!--[if !IE]>-->
-      <object type="application/x-shockwave-flash" data="images/kk_banner.swf" width="1000" height="300">
+      <object type="application/x-shockwave-flash" data="../images/kk_banner.swf" width="1000" height="300">
         <!--<![endif]-->
         <param name="quality" value="high" />
         <param name="wmode" value="transparent" />
         <param name="swfversion" value="9.0.45.0" />
-        <param name="expressinstall" value="Scripts/expressInstall.swf" />
+        <param name="expressinstall" value="../Scripts/expressInstall.swf" />
         <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
         <div>
           <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
@@ -95,18 +95,10 @@ a:active {
       <!--<![endif]-->
     </object>
   </div>
-  <div id="product">
-    <h4>Kaam Kesar is an Ayurvedic and Natural product</h4>
-    
-    <h5>Granules: </h5>
-    <p>It is not in  the form of a Capsule or a tablet, because no chemicals &amp; abstract are used  in this medicine. For keeping it natural and maintain its quality, all the  herbs are used in natural form except Shilajit .(Shilajit is used only in its  refined form.) Therefore it is in the form of Granules &amp; the dosage is 5  gms as it is pure hurbal and no un natural booster is added to it.</p>
-    <h5>Dosage:</h5>
-    <p>Take one pack of Granule at any time of the day. It is sticky therefore it better to take it before meal. </p>
-    <h5>Procedure </h5>
-    <p>This Ayurvedic supplement acts naturally and leads to arousal naturally. If you want to enjoy sex many times a day this supplement gives you the ability to do so and if  after its usage  you do not have sex, it has no side effects. You can feel the difference within 5 days. Those who have lost their sexual ability can be rejuvenated in 4 weeks time. It's regular usage makes you feel young and energetic. This supplement is free from all kinds of side effects . It is also suitable for those suffering from diabetes as shilajit is  helpful in controlling  diabetes. </p>
-  </div>
   <div id="headin"></div>
-</div>
+  <!-- TemplateBeginEditable name="EditRegion1" -->
+  <div id="edit">Content for  id "edit" Goes Here</div>
+  <!-- TemplateEndEditable --></div>
 
 <div class="footer" id="footer">Copyright 2013 KaamKesar.com</div>
 <script type="text/javascript">
