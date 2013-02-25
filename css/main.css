@@ -36,6 +36,7 @@
 #footer {
 	height: 30px;
 	background-color: #000;
+	clear: both;
 }
 #topcontent {
 	height: 40px;
@@ -142,14 +143,32 @@ body {
 	height: 100px;
 }
 #product {
-	height: 430px;
+	height: 380px;
 	width: 600px;
 	padding: 10px;
+	float: left;
+}
+#product2 {
+	float: left;
+	height: 380px;
+	width: 360px;
+	padding-top: 10px;
+}
+#buy {
+	width: 360px;
+	height: 180px;
 }
 #edit {
-	height: 430px;
+	height: 400px;
 	width: 1000px;
+	clear: both;
 }
+#productimg {
+	margin-right: auto;
+	margin-left: auto;
+	width: 200px;
+}
+
 
 p {
 	color: #CCC;
