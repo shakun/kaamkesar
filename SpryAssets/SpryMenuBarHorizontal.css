@@ -104,7 +104,7 @@ ul.MenuBarHorizontal a:hover, ul.MenuBarHorizontal a:focus
 ul.MenuBarHorizontal a.MenuBarItemHover, ul.MenuBarHorizontal a.MenuBarItemSubmenuHover, ul.MenuBarHorizontal a.MenuBarSubmenuVisible
 {
 	background-color: #C60000;
-	color: #FFF;
+	color: #000;
 }
 
 /*******************************************************************************
@@ -160,8 +160,8 @@ ul.MenuBarHorizontal iframe
 {
 	ul.MenuBarHorizontal li.MenuBarItemIE
 	{
-		display: inline;
-		f\loat: left;
-		background: #FFF;
+	display: inline;
+	f\loat: left;
+	background-color: #FFF;
 	}
 }

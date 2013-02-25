@@ -99,13 +99,6 @@
 	margin-bottom: 0px;
 	margin-left: auto;
 }
-body {
-	margin-left: 0px;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	background-image: url(../images/bg.jpg);
-}
 #headercontent {
 	height: 100px;
 	width: 1000px;
@@ -169,6 +162,13 @@ body {
 	width: 200px;
 }
 
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(../images/bg.jpg);
+}
 
 p {
 	color: #CCC;
@@ -202,4 +202,13 @@ h5 {
 	padding-right: 0px;
 	padding-bottom: 0px;
 	padding-left: 0px;
+}
+ul {
+	color: #CCC;
+}
+li {
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
 }
