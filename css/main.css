@@ -177,9 +177,31 @@
 	width: 200px;
 	float: left;
 }
-#address {
-	width: 500px;
+#edit_c {
+	width: 900px;
+	clear: both;
+	background-color: #571D71;
+	margin-right: auto;
+	margin-left: auto;
+	height: 400px;
 }
+#address {
+	width: 400px;
+	float: left;
+	height: 380px;
+}
+#gmap {
+	float: left;
+	width: 425px;
+	padding-top: 15px;
+	margin-left: 50px;
+}
+#form1 {
+	padding-left: 30px;
+	padding-top: 10px;
+}
+
+
 
 
 body {
@@ -215,9 +237,11 @@ h4 {
 }
 #address h4 {
 	font-size: large;
-	color: #CA0000;
-	padding: 10px;
+	color: #F90;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 #address p {
 	padding-left: 40px;
