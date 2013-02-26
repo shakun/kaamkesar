@@ -228,6 +228,10 @@ li {
 	margin-bottom: 0px;
 	margin-left: 0px;
 }
+sup {
+	color: #F60;
+	font-size: small;
+}
 .img {
 	float: none;
 	border: thin solid #CCC;
