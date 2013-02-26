@@ -44,6 +44,17 @@
 	margin-right: auto;
 	margin-left: auto;
 }
+#moa {
+	float: left;
+	padding-left: 10px;
+}
+#moaimg {
+	clear: both;
+	text-align: center;
+	padding-top: 30px;
+}
+
+
 #cart {
 	height: 30px;
 	width: 190px;
@@ -90,6 +101,10 @@
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
+#pouchimg {
+	float: left;
+}
+
 #menubg {
 	height: 40px;
 	background-image: url(../images/bar.png);
@@ -160,6 +175,7 @@
 	margin-right: auto;
 	margin-left: auto;
 	width: 200px;
+	float: left;
 }
 
 body {
@@ -211,4 +227,10 @@ li {
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
+}
+.img {
+	float: none;
+	border: thin solid #CCC;
+	padding: 10px;
+	margin: 10px;
 }
