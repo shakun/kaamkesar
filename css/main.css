@@ -177,6 +177,10 @@
 	width: 200px;
 	float: left;
 }
+#address {
+	width: 500px;
+}
+
 
 body {
 	margin-left: 0px;
@@ -209,6 +213,16 @@ h4 {
 	padding-bottom: 0px;
 	padding-left: 0px;
 }
+#address h4 {
+	font-size: large;
+	color: #CA0000;
+	padding: 10px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+#address p {
+	padding-left: 40px;
+}
+
 h5 {
 	color: #F60;
 	font-size: medium;
@@ -218,9 +232,6 @@ h5 {
 	padding-right: 0px;
 	padding-bottom: 0px;
 	padding-left: 0px;
-}
-ul {
-	color: #CCC;
 }
 li {
 	margin-top: 5px;
