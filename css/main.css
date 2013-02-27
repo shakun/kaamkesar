@@ -267,6 +267,10 @@ sup {
 	color: #F60;
 	font-size: small;
 }
+ul {
+	color: #CCC;
+}
+
 .img {
 	float: none;
 	border: thin solid #CCC;

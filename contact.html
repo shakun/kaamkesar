@@ -105,38 +105,29 @@ a:active {
   <!-- InstanceBeginEditable name="EditRegion1" -->
   <div id="edit_c">
     <div id="address">
-      <h4>Mohobat Ayurveda</h4>
-      <p>B-6/171&172 <br />
-        sec-17.Rohni, Delhi-110089.<br />
-      </p>
-      <h4><img src="images/india_flag.png" width="20" height="20" hspace="6" align="left" />India </h4>
-      <p>kaamkesar@gmail.com<br />
+      <h4>Mohobat Ayurveda &nbsp;<img src="images/india_flag.png" width="20" height="20" hspace="6" align="left" />India </h4>
+      <p>B-6/171&172 
+        Sec-17 Rohini, Delhi-110089.<br />      
+      kaamkesar@gmail.com<br />
         Helpline: +91-9215722474, +91-9215355660 </p>
       <form id="form1" name="form1" method="post" action="">
-        <span>
-        <label class="white">Your Name</label>
-        </span>        <span id="sprytextfield1">
-            <label></label>
-        </span><span id="sprytextfield1">
-            <label><br />
-<input type="text" name="name" id="name" />
-            </label>
-            <span class="textfieldRequiredMsg">A Value Required</span></span>
+        <span id="sprytextfield1">
+        <label><span class="white">Your Name</span> <br />
+          <input type="text" name="name" id="name" />
+        </label>
+        <span class="textfieldRequiredMsg">A value is required.</span></span>
             <br /><span id="sprytextfield3">
             <label><span class="white">Email</span><br />
               <input type="text" name="email" id="email" />
             </label>
             <span class="textfieldRequiredMsg">A value is required.</span><span class="textfieldInvalidFormatMsg">Invalid format.</span></span><br />
-            <span class="white" id="sprytextarea1">
-            <label>Message</label>
-            </span><span id="sprytextarea1">
-            <label></label>
-        </span><span id="sprytextarea1">
-        <label><br />
+           
+        <span id="sprytextarea2">
+        <label><span class="white">Message</span><br />
           <textarea name="comment" id="comment" cols="45" rows="5"></textarea>
-        <span id="countsprytextarea1">&nbsp;</span></label>
-        <span class="textareaRequiredMsg">A value is required.</span><span class="textareaMaxCharsMsg"><br />
-        Exceeded maximum number of characters.</span></span>
+        </label>
+        <span class="textareaRequiredMsg">A value is required.</span><span class="textareaMaxCharsMsg">Exceeded maximum number of characters.</span></span>
+        <input name="submit" type="button" value="Submit" />
       </form>
     </div>
     <div id="gmap"><iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.in/maps?hl=en&amp;q=sector+17+rohini&amp;ie=UTF8&amp;hq=&amp;hnear=Sector+17,+Rohini,+New+Delhi,+North+West+Delhi,+Delhi&amp;gl=in&amp;t=m&amp;z=14&amp;ll=28.74047,77.116156&amp;output=embed"></iframe><br /><small><a href="https://maps.google.co.in/maps?hl=en&amp;q=sector+17+rohini&amp;ie=UTF8&amp;hq=&amp;hnear=Sector+17,+Rohini,+New+Delhi,+North+West+Delhi,+Delhi&amp;gl=in&amp;t=m&amp;z=14&amp;ll=28.74047,77.116156&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small></div>
@@ -144,9 +135,10 @@ a:active {
   <script type="text/javascript">
 <!--
 var sprytextfield2 = new Spry.Widget.ValidationTextField("sprytextfield2");
-var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1", "none", {hint:"Insert Your Name"});
 var sprytextfield3 = new Spry.Widget.ValidationTextField("sprytextfield3", "email");
 var sprytextarea1 = new Spry.Widget.ValidationTextarea("sprytextarea1", {maxChars:400, counterType:"chars_count", counterId:"countsprytextarea1"});
+var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1");
+var sprytextarea2 = new Spry.Widget.ValidationTextarea("sprytextarea2", {maxChars:250});
 //-->
   </script>
   <!-- InstanceEndEditable --></div>
