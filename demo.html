@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<link href="css/s3slider.css" rel="stylesheet" type="text/css" />
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<!-- JavaScripts-->
+<script type="text/javascript" src="Scripts/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="Scripts/s3Slider.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#slider1').s3Slider({
+            timeOut: 4000 
+        });
+    });
+</script>
+</head>
+
+<body><div id="slider1">
+        <ul id="slider1Content">
+            <li class="slider1Image">
+                <a href=""><img src="images/slides/1.jpg" alt="1" /></a>
+                <span class="left"><strong>Title text 1</strong><br />Content text...</span></li>
+            <li class="slider1Image">
+                <a href=""><img src="images/slides/2.jpg" alt="2" /></a>
+                <span class="right"><strong>Title text 2</strong><br />Content text...Content text...Content text...Content text...Content text...Content text...Content text...Content text...Content text...Content text...Content text...</span></li>
+            <li class="slider1Image">
+                <img src="images/slides/3.jpg" alt="3" />
+                <span class="right"><strong>Title text 2</strong><br />Content text...</span></li>
+            <li class="slider1Image">
+                <img src="images/slides/4.jpg" alt="4" />
+                <span class="left"><strong>Title text 2</strong><br />Content text...</span></li>
+            <li class="slider1Image">
+                <img src="images/slides/5.jpg" alt="5" />
+                <span class="right"><strong>Title text 2</strong><br />Content text...</span></li>
+            <div class="clear slider1Image"></div>
+        </ul>
+    </div>
+</body>
+</html>

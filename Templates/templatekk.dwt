@@ -26,8 +26,6 @@ a:active {
 -->
 </style>
 <link href="../css/main.css" rel="stylesheet" type="text/css" />
-<!-- TemplateBeginEditable name="head" -->
-<!-- TemplateEndEditable -->
 </head>
 
 <body>
@@ -60,7 +58,7 @@ a:active {
 <div id="menubg">
     <div id="menu">
       <ul id="MenuBar1" class="MenuBarHorizontal">
-        <li><a href="../home.html">Home</a>        </li>
+        <li><a href="../index.html">Home</a>        </li>
         <li><a href="../ingredients.html">Ingredients</a></li>
         <li><a href="../moa.html">MOA</a>        </li>
         <li><a href="../literature.html">Literature</a></li>
@@ -70,6 +68,7 @@ a:active {
       </ul>
     </div>
       </div>
+<!-- TemplateBeginEditable name="EditRegion1" -->
 <div id="main">
   <div id="banner">
     <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="1000" height="300" id="FlashID" title="Kaam Kesar To Boost Your Sex Life">
@@ -98,10 +97,8 @@ a:active {
     </object>
   </div>
   <div id="headin"></div>
-  <!-- TemplateBeginEditable name="EditRegion1" -->
-  <div id="edit">Content for  id "edit" Goes Here</div>
-  <!-- TemplateEndEditable --></div>
-
+</div>
+<!-- TemplateEndEditable -->
 <div class="footer" id="footer">Copyright 2013 KaamKesar.com</div>
 <script type="text/javascript">
 <!--
